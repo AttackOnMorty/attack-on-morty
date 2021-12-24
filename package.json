@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "attack-on-morty",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Personal blog by Luke",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Luke",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/AttackOnMorty/attack-on-morty/issues"
   },
   "dependencies": {
     "gatsby": "^4.4.0",
@@ -33,9 +33,10 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "^2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/AttackOnMorty/attack-on-morty#readme",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +44,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/AttackOnMorty/attack-on-morty"
   },
   "scripts": {
     "build": "gatsby build",
@@ -52,6 +53,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }

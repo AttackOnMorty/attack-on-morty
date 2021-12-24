@@ -11,6 +11,7 @@ module.exports = {
       twitter: `lanytz`,
     },
   },
+  pathPrefix: "/attack-on-morty",
   plugins: [
     `gatsby-plugin-image`,
     {
