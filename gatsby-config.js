@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `AttackOnMorty`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Luke`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Personal blog by Luke`,
+    siteUrl: `https://attackonmorty.github.io/attack-on-morty/`,
     social: {
-      twitter: `kylemathews`,
+      github: `AttackOnMorty`,
+      twitter: `lanytz`,
     },
   },
   plugins: [
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/posts`,
         name: `blog`,
       },
     },
