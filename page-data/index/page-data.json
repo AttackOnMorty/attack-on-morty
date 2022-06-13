@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"AttackOnMorty"}},"allMarkdownRemark":{"nodes":[{"excerpt":"This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"May 01, 2015","title":"Hello World","description":null}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"AttackOnMorty"}},"allMarkdownRemark":{"nodes":[{"excerpt":"普通的二分查找 见 Leetcode 第 704 题 二分查找  下面是题解： 寻找左侧边界的二分查找 见 LeetCode 第 3…","fields":{"slug":"/binary-search/"},"frontmatter":{"date":"June 13, 2022","title":"二分查找","description":null}}]}},"pageContext":{}},
     "staticQueryHashes": ["2785349746","2841359383"]}
