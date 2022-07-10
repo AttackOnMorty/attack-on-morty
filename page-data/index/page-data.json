@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"AttackOnMorty"}},"allMarkdownRemark":{"nodes":[{"excerpt":"普通的二分查找 见 Leetcode 第 704 题 二分查找  下面是题解： 寻找左侧边界的二分查找 见 LeetCode 第 3…","fields":{"slug":"/binary-search/"},"frontmatter":{"date":"June 13, 2022","title":"二分查找","description":null}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"AttackOnMorty"}},"allMarkdownRemark":{"nodes":[{"excerpt":"先看个例子： 实际上  是对面向对象语言的拙劣模仿。它会让你下意识地认为  的作用是检测  是不是由  实例化出来的。但是  是基于对象的语言，它没有面向对象语言中类和实例的概念。 instanceof 到底是什么 下面是 MDN 的定义： The instanceof…","fields":{"slug":"/js-instanceof/"},"frontmatter":{"date":"July 10, 2022","title":"JS: Instanceof","description":null}},{"excerpt":"普通的二分查找 见 Leetcode 第 704 题 二分查找  下面是题解： 寻找左侧边界的二分查找 见 LeetCode 第 3…","fields":{"slug":"/binary-search/"},"frontmatter":{"date":"June 13, 2022","title":"二分查找","description":null}}]}},"pageContext":{}},
     "staticQueryHashes": ["2785349746","2841359383"]}
