@@ -9,15 +9,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `AttackOnMorty`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Luke Mao`,
+      quote: `I think, therefore I am.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
+    // TODO:
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      github: `AttackOnMorty`,
+      linkedin: `luke-mao`,
+      twitter: `AttackOnMorty`,
     },
   },
   plugins: [
@@ -25,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content`,
         name: `blog`,
       },
     },
@@ -118,7 +121,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
   ],
