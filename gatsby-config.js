@@ -12,11 +12,9 @@ module.exports = {
     title: `AttackOnMorty`,
     author: {
       name: `Luke Mao`,
-      quote: `I think, therefore I am.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    // TODO:
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Personal blog by Luke Mao.`,
+    siteUrl: `https://www.attackonmorty.dev/`,
     social: {
       github: `AttackOnMorty`,
       linkedin: `luke-mao`,

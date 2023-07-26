@@ -16,7 +16,6 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            quote
           }
           social {
             github
@@ -43,11 +42,17 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p style={{ maxWidth: 220 }}>
-          Personal blog by{" "}
-          <a href={`https://github.com/${social.github}`}>{author.name}</a>.{" "}
-          {author.quote}
-        </p>
+        <div>
+          <div>
+            Personal blog by{" "}
+            <a href={`https://github.com/${social.github}`}>{author.name}</a>.
+          </div>
+          <div>
+            Solution Engineer at{" "}
+            <a href="https://www.ssw.com.au/">ssw.com.au</a> and SSW TV{" "}
+            <a href="https://tv.ssw.com/">tv.ssw.com</a>.
+          </div>
+        </div>
       )}
     </div>
   )
