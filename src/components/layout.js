@@ -42,6 +42,11 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
+        <div style={{ float: "right" }}>
+          <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
+            rss
+          </a>
+        </div>
         <a
           href={`https://github.com/${social.github}`}
           target="_blank"
